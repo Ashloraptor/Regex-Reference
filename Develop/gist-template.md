@@ -34,7 +34,8 @@ Our regex will appear as the following:
 ## Regex Components
 
 Regex can utilize literal characters- characters which mean exactly what they mean, such as the lowercase letter a being a lowercase letter a. Regex can also utilize meta characters, in which the character used is a representation of another meaning.
-Referencing our example regex, the ```/``` at the beginning and end of the string are not literally the slash character. The combination ```/^``` marks the beginning of the string, while ```$/``` marks the end of the string. The square brackets ```[]``` denote a range of optional acceptable input within. 
+Referencing our example regex, the ```/``` at the beginning and end of the string are not literally the slash character. The combination ```/^``` marks the beginning of the string, while ```$/``` marks the end of the string. 
+The square brackets ```[]``` denote a range of optional acceptable input within. Using ```[a-z]``` within our regex, for example, is how we are able to accept any lowercase letter.
 
 ### Anchors
 
