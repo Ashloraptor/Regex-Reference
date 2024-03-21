@@ -6,12 +6,13 @@ Regex, or regular expression, is a tool that can be utilized in many cases to se
 
 In this tutorial, we will use password formatting as an example, though regex can be used for many other applications.
 When making a password, there is a variety of criteria that may be required. In this instance, we’ll permit/require
-    • minimum 6 characters
-    • maximum 16 characters
-    • lowercase letters between a and z
-    • capital letters between a and z
-    • numbers
-    • some special characters
+* minimum 6 characters
+* maximum 16 characters
+* lowercase letters between a and z
+* capital letters between a and z
+* numbers
+* some special characters
+  
 Our regex will appear as the following:
 ```
 /^[a-zA-Z0-9!@#$%^&*()_-]{6,16}$/
