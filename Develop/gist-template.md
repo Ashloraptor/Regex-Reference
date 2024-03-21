@@ -21,7 +21,6 @@ Our regex will appear as the following:
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
@@ -50,9 +49,6 @@ There are other ways to set limits to the string you’re trying to match with y
 * ```?``` matches either zero or one time
 
 Curly brackets can also be used in different ways outside of requiring a minimum and maximum range. Having one number in brackets will match the pattern only as many times as specified by the value of the number. Placing a comma after the number will turn that value into the minimum.
-
-### OR Operator
-When not capturing a range of characters, but wanting to capture any of a particular series, we may use the OR operator, ```|```, between the characters we will accept in that series.
 
 ### Character Classes
 
